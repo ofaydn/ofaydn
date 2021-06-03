@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ofaydn
-- 👀 I’m interested in web- mobile development
-- 🌱 I’m currently learning vue.js
+- 👀 I’m interested in web-mobile development
+- 🌱 I’m currently learning vue.js framework
 - 💞️ I’m looking to collaborate on full-stack web development.
 - 📫 How to reach me contact@ofaydn.dev
 - 💻 ofaydn.dev/ is my personal website ! 
