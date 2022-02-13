@@ -1,8 +1,8 @@
 - 👋 Hi, I’m @ofaydn
 - 👀 I’m interested in software development
-- 🌱 I’m currently learning vue.js framework
+- 🌱 I’m currently learning mySQl
 - 💞️ I’m looking to collaborate on full-stack web development.
-- 📫 How to reach me contact@ofaydn.dev
+- 📫 You can reach me by contact@ofaydn.dev
 - 💻 ofaydn.dev/ is my personal website ! 
 
 <!---
