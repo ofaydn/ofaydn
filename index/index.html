@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="indexsrc/style.css">
+    <link rel="stylesheet" href="generalsrc/general.css">
+    <link rel="icon" href="generalsrc/favicon.png">
+    <title>ofaydn</title>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">home page</a>
+        <a href="arsal.html">arsal</a>
+
+    </nav>
+    
+    <div class="container">
+        <div class="linkPillar">
+            <a href="https://stackoverflow.com/users/14932108/ofaydn"><img src="indexsrc/stack.png" alt="StackOverflow">
+                <p>StackOverflow</p>
+            </a>
+
+            <a href="https://github.com/ofaydn"><img src="indexsrc/github.png" alt="GitHub">
+                <p>GitHub</p>
+            </a>
+
+
+            <a href="https://t.me/ofaydn"><img src="indexsrc/telegram.png" alt="My Telegram">
+                <p>Telegram</p>
+            </a>
+
+        </div>
+        <div class="content">
+            <p id="brief">hey i'm Ömer Faruk Aydın <br>i am a student in sakarya university who is studying to be a software developer  <br> here are my abilities:</p>
+            <div class="abilities">
+                <div class="abEach">
+                    <div class="abHeader">front-end</div>
+                    <div class="abList">
+                            <ul>    
+                                <li>html</li>
+                                <li>css</li>
+                                <li>javascript</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="abEach">
+                    <div class="abHeader">back-end</div>
+                    <div class="abList">
+                            <ul>
+                            <li>php</li>
+                            </ul>
+                    </div>
+                </div>    
+                <div class="abEach">
+                        <div class="abHeader">oop</div>
+                        <div class="abList">
+                            <ul>
+                                <li>c++</li>
+                                <li>c#</li>
+                                <li>python</li>
+                            </ul>
+                        </div> 
+                </div>    
+                <div class="abEach">
+                    <div class="abHeader">database</div>
+                    <div class="abList">
+                        <ul>
+                            <li>mySQL</li>
+                        </ul>
+                    </div>    
+                </div>     
+            </div>
+        </div>
+        <div class="news">
+            <div id="dollar"></div>
+            <div id="euro"></div>
+            <div id="btc"></div>
+            <div id="doge"></div>
+        </div>
+    </div>
+    <footer>
+        <p><button onclick="window.open('mailto:contact@ofaydn.dev');">Click for contact</button>
+            <button onclick="window.open('mailto:iletisim@ofaydn.dev');">İletişim için tıklayın</button></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script>
+        const intro = document.querySelector('#introduction');
+        setInterval(() => {
+            intro.classList.add('gone')
+        }, 10000)
+    </script>
+    <script src="generalsrc/fetch.js">
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,258 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    color: #BCAB79;
+    z-index: 10;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #393E46;
+}
+
+nav a {
+    text-decoration: none;
+    color: #BCAB79;
+    padding: 1.5rem;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: yellow;
+    transform: scale(1.2);
+
+}
+.container{
+    margin:0 auto;
+    padding: 0 auto;
+}
+.content{
+    margin: 0 auto;
+}
+.abilities{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.abEach{
+    display: inline-block;
+    width: 50%;
+}
+.abContent{
+    display: flex;width: 100%;justify-content: center;
+}
+.abHeader{
+    text-align: center;
+    color: #3e8585;
+}
+a img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25%;
+}
+
+.linkPillar {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    position: relative;
+    top: 2vh;
+}
+
+.linkPillar a {
+    text-decoration: none;
+    color: #BCAB79;
+    transition: 0.3s;
+}
+
+.linkPillar a:hover {
+    color: yellow;
+}
+
+.linkPillar a p {
+    display: inline;
+    position: relative;
+    bottom: 2.5vh;
+}
+
+.linkPillar a img {
+    transition: 0.3s;
+}
+
+.linkPillar a img:hover {
+    transform: rotate(360deg);
+}
+
+.content {
+    color: #BCAB79;
+    width: 50%;
+}
+
+#brief {
+    position: relative;
+    font-size: 150%;
+    font-weight: 200;
+}
+
+.news {
+    position: relative;
+    top: 2vh;
+    width: 25%;
+    font-size: 4vh;
+}
+
+.container {
+    display: flex;
+    width: 98%;
+    margin: 1%;
+}
+
+footer {
+    position: relative;
+    top: 38vh;
+    text-align: center;
+    color: #00ADB5;
+    background-color: #3e8585;
+    padding: 1vh 0;
+}
+
+@media only screen and (max-width:600px) {
+    nav {
+        justify-content: space-evenly;
+    }
+    .abilities{
+        font-size:1rem;
+        
+    }
+    .abilities h2{
+        display: inline-block;
+        
+    }
+    
+    .abEach{
+        display: inline;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .linkPillar {
+        flex-direction: row;
+        height: 60px;
+        width: 96%;
+        justify-content: space-evenly;
+        font-size: 14px;
+    }
+    .content {
+        width: 96%;
+        text-align: center;
+    }
+    #brief {
+        font-size: normal;
+    }
+    .news {
+        display: flex;
+        flex-direction: column;
+        font-size: 5vw;
+        width: 96vw;
+        align-items: center;
+        margin: 0 2vw;
+    }
+    footer {
+        top: 10vw
+    }
+}
+
+@media only screen and (max-width:407px) {
+    .linkPillar a p {
+        display: none;
+    }
+    .linkPillar {
+        justify-content: space-evenly;
+    }
+    .abilities{
+        font-size:1rem;
+
+    }
+}
+
+/*
+:root {
+    --typewriterspeed: 4s;
+}
+
+.greet {
+    width: 100%;
+    height: 40em;
+    background-color: #253031;
+    position: absolute;
+    place-content: center;
+    text-align: center;
+    display: grid;
+    z-index: 11;
+    transition: 0.3s;
+}
+
+.gone {
+    display: none;
+}
+
+.greet h1 {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+    position: relative;
+}
+
+.greet p {
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 2em;
+}
+
+.greet h1::before,
+.greet h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+@keyframes typewriter {
+    to {
+        left: 100%;
+    }
+}
+
+@keyframes blinking {
+    to {
+        background-color: transparent;
+    }
+}
+
+@keyframes fadeTo {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.greet h1::before {
+    background-color: #253031;
+    animation: typewriter var(--typewriterspeed) steps(16) 1s forwards;
+}
+
+.greet h1::after {
+    width: 0.125em;
+    background-color: black;
+    animation: typewriter var(--typewriterspeed) steps(16) 1s forwards, blinking 500ms steps(16) infinite;
+}
+
+.welcome {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeTo 2s ease calc( var(--typewriterspeed)+5s) forwards;
+}
+*/
