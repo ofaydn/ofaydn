@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @ofaydn
 - 👀 I’m interested in software development
-- 🌱 I’m currently learning mySQL
+- 🌱 I’m currently learning Node.js
 - 💞️ I’m looking to collaborate on full-stack web development.
 - 📫 You can reach me by contact@ofaydn.dev
 - 💻 ofaydn.dev/ is my personal website ! 
