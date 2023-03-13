@@ -1,9 +1,6 @@
-- 👋 Hi, I’m @ofaydn
-- 👀 I’m interested in software development
-- 🌱 I’m currently learning react
-- 💞️ I’m looking to collaborate on full-stack development.
-- 📫 You can reach me by contact@ofaydn.dev
-- 💻 ofaydn.dev/ is my personal website ! 
+💻 I’m currently a software engineering student 
+💻 nowadays i'm trying to learn react
+💻 ofaydn.dev/ is my personal website ! 
 
 <!---
 ofaydn/ofaydn is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
