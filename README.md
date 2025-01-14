@@ -1,6 +1,6 @@
 - Writing Python for sensor communications.  
 -💻 I’m currently a software engineering student.                                                                                         
--💻 in my free time i'm trying to learn natural language processing.     
+-💻 in my free time i'm trying to learn go language.     
 
 
 <!---
